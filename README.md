@@ -22,7 +22,7 @@ A modular, intelligent AI agent system built using **FastAPI** and **OpenAI's GP
 ## 📂 Project Structure
 
 AI_AGENT/
-├── backend/
+- backend/
 │ ├── main.py # FastAPI entrypoint + CLI mode
 │ ├── api_logic.py # Shared logic between API and CLI
 │ ├── core/
@@ -42,14 +42,14 @@ AI_AGENT/
 │ │ ├── explain.py
 │ ├── routes/
 │ │ └── router.py
-├── frontend/
+- frontend/
 │ ├── app.js # Frontend
 │ ├──index.html
 │ ├──styles.css
 ├── .env # Contains OPENAI_API_KEY, MONGO_URI
 ├── requirements.txt
 └── README.md
-<pre><code> AI_AGENT/ ├── backend/ │ ├── main.py │ ├── api_logic.py │ ├── core/ │ │ ├── orchestrator.py │ │ ├── prompt_compiler.py │ │ ├── dispatcher.py │ ├── agents/ │ │ ├── summarizer.py │ │ ├── reasoner.py │ │ ├── qa.py │ ├── data/ │ │ ├── input_simulator.py │ │ ├── memory_store.py │ │ ├── lens_selector.py │ ├── output/ │ │ ├── writer.py │ │ ├── explain.py │ ├── routes/ │ │ └── router.py ├── frontend/ │ ├── app.js │ ├── index.html │ ├── styles.css ├── .env ├── requirements.txt └── README.md </code></pre>
+
 ---
 
 ## ⚙️ Setup Instructions
@@ -59,3 +59,8 @@ AI_AGENT/
 ```bash
 pip install -r requirements.txt
 ```
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Saha-Manav/AI-Agent.git
+cd AI-Agent
