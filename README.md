@@ -23,7 +23,7 @@ A modular, intelligent AI agent system built using **FastAPI** and **OpenAI's GP
 
 AI_AGENT/
 - backend/
-│ ├── main.py # FastAPI entrypoint + CLI mode
+- - main.py # FastAPI entrypoint + CLI mode
 │ ├── api_logic.py # Shared logic between API and CLI
 │ ├── core/
 │ │ ├── orchestrator.py # Agent pipeline coordinator
