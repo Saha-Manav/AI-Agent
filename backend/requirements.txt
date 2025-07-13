@@ -1,0 +1,15 @@
+openai
+pymongo
+redis
+pinecone-client>=3.0.0
+python-dotenv
+numpy
+sqlalchemy
+psycopg2-binary
+transformers
+requests
+fastapi==0.95.1
+uvicorn[standard]==0.22.0
+pydantic==1.10.7
+python-multipart==0.0.6
+requests==2.31.0
