@@ -60,7 +60,7 @@ AI_AGENT/
 ```bash
 pip install -r requirements.txt
 ```
-### 1. Clone the repository
+##  Clone the repository
 
 ```bash
 git clone https://github.com/Saha-Manav/AI-Agent.git
