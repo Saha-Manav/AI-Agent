@@ -51,6 +51,7 @@ AI_AGENT/
     - styles.css
  
 - README.md
+- LICENSE
 ---
 
 ## ⚙️ Setup Instructions
