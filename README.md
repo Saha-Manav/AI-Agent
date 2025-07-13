@@ -29,27 +29,28 @@ AI_AGENT/
     - orchestrator.py # Agent pipeline coordinator
     - prompt_compiler.py
     - dispatcher.py
-│ ├── agents/
-│ │ ├── summarizer.py
-│ │ ├── reasoner.py
-│ │ ├── qa.py
-│ ├── data/
-│ │ ├── input_simulator.py
-│ │ ├── memory_store.py
-│ │ ├── lens_selector.py
-│ ├── output/
-│ │ ├── writer.py
-│ │ ├── explain.py
-│ ├── routes/
-│ │ └── router.py
+  - agents/
+    - summarizer.py
+    - reasoner.py
+    - qa.py
+  - data/
+    - input_simulator.py
+    - memory_store.py
+    - lens_selector.py
+  - output/
+    - writer.py
+    - explain.py
+  - routes/
+    - router.py
+  - .env # Contains OPENAI_API_KEY, MONGO_URI
+  - requirements.txt
+   
 - frontend/
-│ ├── app.js # Frontend
-│ ├──index.html
-│ ├──styles.css
-├── .env # Contains OPENAI_API_KEY, MONGO_URI
-├── requirements.txt
-└── README.md
-
+    - app.js 
+    - index.html
+    - styles.css
+ 
+- README.md
 ---
 
 ## ⚙️ Setup Instructions
