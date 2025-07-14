@@ -116,5 +116,4 @@ Open
 ```bash
 http://localhost:5678
 ```
-Import My workflow.json from n8n-docker-version/backend/
-Configure environment variables and credentials (OpenAI key, MongoDB)
+Import My workflow.json from n8n-docker-version/backend/ and configure environment variables and credentials (OpenAI key, MongoDB)
