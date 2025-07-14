@@ -111,10 +111,8 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
-Access the server at: 
-```bash
-http://127.0.0.1:8000
-```
+Access the server at: `http://127.0.0.1:8000`
+
 
 ### ▶️ For n8n Workflow Version
 
@@ -127,8 +125,7 @@ docker run -it --rm \
   n8nio/n8n
 ```
 #### 2. Import the Workflow
-Open 
-```bash
-http://localhost:5678
-```
+Open `http://localhost:5678`
+
+
 Import My workflow.json from n8n-docker-version/backend/ and configure environment variables and credentials (OpenAI key, MongoDB)
