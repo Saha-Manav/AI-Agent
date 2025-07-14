@@ -22,7 +22,6 @@ This repository includes **two parallel implementations** of the same modular AI
 
 ### 🐍 Native Python Version
 
-- 🧩 **Modular AI pipeline** (`summarizer → reasoner → QA validator`)
 - 🌐 **REST API** built with FastAPI
 - 📤 **Outputs saved to MongoDB** (via `output.writer`)
 - 🧪 **CLI simulator mode** with `input_simulator`
