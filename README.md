@@ -22,6 +22,7 @@ This repository includes **two parallel implementations** of the same modular AI
 
 ### 🐍 Native Python Version
 
+- 🧩 **Modular AI pipeline** (`summarizer → reasoner → QA validator`)
 - 🌐 **REST API** built with FastAPI
 - 📤 **Outputs saved to MongoDB** (via `output.writer`)
 - 🧪 **CLI simulator mode** with `input_simulator`
@@ -35,7 +36,6 @@ This repository includes **two parallel implementations** of the same modular AI
 ### 🧩 n8n Docker Version
 
 - 🖼️ **Visual low-code workflow** using [n8n](https://n8n.io/)
-- 🔁 **Implements the same agent pipeline** (`summarizer → reasoner → QA validator`)
 - 🌐 **API calls handled via HTTP Request nodes**
 - 🧠 **AI agents orchestrated with custom nodes and logic branches**
 - 🧩 **Reusable modular nodes** for summarization, reasoning, and QA
