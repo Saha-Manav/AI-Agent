@@ -1,6 +1,6 @@
 # 🧠 AI Agent System
 
-An AI-driven reasoning and explanation system that provides both Python-native and n8n workflow implementations of the same intelligent agent pipeline. Built with FastAPI, OpenAI GPT models, and MongoDB, this system enables real-time summarization, reasoning, and Q&A validation of user reflections. Supports both REST API and CLI modes.
+An AI-driven reasoning and explanation system that provides both Python-native and n8n workflow implementations of the same intelligent agent pipeline. Built with FastAPI, OpenAI and Gemini GPT models, and MongoDB, this system enables real-time summarization, reasoning, and Q&A validation of user reflections. Supports both REST API and CLI modes.
 
 ---
 ## 🔄 Two Versions Included
@@ -36,10 +36,12 @@ This repository includes **two parallel implementations** of the same modular AI
 ### 🧩 n8n Docker Version
 
 - 🖼️ **Visual low-code workflow** using [n8n](https://n8n.io/)
-- 🌐 **API calls handled via HTTP Request nodes**
+- 🌐 **API calls handled via Webhooks and HTTP Request nodes**
+- 📤 **Outputs saved to MongoDB and Context-aware memory**
 - 🧠 **AI agents orchestrated with custom nodes and logic branches**
 - 🧩 **Reusable modular nodes** for summarization, reasoning, and QA
-- 📥 **Easily integrates with external services** (e.g., Notion, Slack, Google Sheets)
+- 📥 **Easily integrates with external services** (e.g. Google Sheets)
+- 🧠 **AI agents powered by the Gemini GPT API**
 - 🔐 **Environment variables managed via n8n credentials**
 - 📦 **Packaged in a Docker container** for easy deployment and testing
 
