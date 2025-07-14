@@ -1,9 +1,23 @@
 # 🧠 AI Agent System
 
-A modular, intelligent AI agent system built using **FastAPI** and **OpenAI's GPT models**, designed for real-time reasoning, summarization, and explanation of user reflections. This system supports both **web-based** and **CLI-based** execution modes.
+An AI-driven reasoning and explanation system that provides both Python-native and n8n workflow implementations of the same intelligent agent pipeline. Built with FastAPI, OpenAI GPT models, and MongoDB, this system enables real-time summarization, reasoning, and Q&A validation of user reflections. Supports both REST API and CLI modes.
 
 ---
+## 🔄 Two Versions Included
 
+This repository includes **two parallel implementations** of the same modular AI agent system:
+
+1. **Python-Native Version**
+   - Fully implemented in Python using **FastAPI**
+   - Supports both **API** and **CLI** execution
+   - More customizable and suitable for deep integration and extension
+
+2. **n8n Workflow Version**
+   - Implements the same logic as a visual, **low-code workflow** using [n8n](https://n8n.io/)
+   - Ideal for **automation, orchestration**, and connecting external services
+   - Easier to deploy and maintain for users familiar with **no-code/low-code tools**
+     
+---
 ## ✨ Key Features
 
 - 🧩 **Modular AI pipeline** (`summarizer → reasoner → QA validator`)
@@ -64,13 +78,43 @@ python-native-version/
 
 ## ⚙️ Setup Instructions
 
-### 1. Install Dependencies
+### ▶️ For Python-Native Version
+
+#### 1. Clone Repository
+
+```bash
+git clone https://github.com/Saha-Manav/AI-Agent.git
+cd AI-Agent/python-native-version/backend
+```
+
+#### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
-##  Clone the repository
+#### 3. Run FastAPI Server
+```bash
+uvicorn main:app --reload
+```
+Access the server at: 
+```bash
+http://127.0.0.1:8000
+```
+
+### ▶️ For n8n Workflow Version
+
+#### 1. Install and Start n8n (Docker Recommended)
 
 ```bash
-git clone https://github.com/Saha-Manav/AI-Agent.git
-cd AI-Agent
+docker run -it --rm \
+  -p 5678:5678 \
+  -v ~/.n8n:/home/node/.n8n \
+  n8nio/n8n
+```
+#### 2. Import the Workflow
+Open 
+```bash
+http://localhost:5678
+```
+Import My workflow.json from n8n-docker-version/backend/
+Configure environment variables and credentials (OpenAI key, MongoDB)
