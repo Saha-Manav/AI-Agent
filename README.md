@@ -21,7 +21,15 @@ A modular, intelligent AI agent system built using **FastAPI** and **OpenAI's GP
 
 ## 📂 Project Structure
 
-AI_AGENT/
+n8n-docker-version/
+- backend/
+  - My workflow.json
+- frontend/
+    - app.js 
+    - index.html
+    - styles.css 
+
+python-native-version/
 - backend/
   - main.py  # FastAPI entrypoint + CLI mode
   - api_logic.py  # Shared logic between API and CLI
