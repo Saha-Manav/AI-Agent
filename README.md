@@ -20,6 +20,8 @@ This repository includes **two parallel implementations** of the same modular AI
 ---
 ## ✨ Key Features
 
+### 🐍 Native Python Version
+
 - 🧩 **Modular AI pipeline** (`summarizer → reasoner → QA validator`)
 - 🌐 **REST API** built with FastAPI
 - 📤 **Outputs saved to MongoDB** (via `output.writer`)
@@ -30,6 +32,18 @@ This repository includes **two parallel implementations** of the same modular AI
 - ✅ **OpenAI GPT-3.5 integration**
 - 🔌 **CORS-enabled** for frontend connection
 - ⚙️ **Clean folder structure** with `core`, `agents`, `output`, and `data` modules
+
+### 🧩 n8n Docker Version
+
+- 🖼️ **Visual low-code workflow** using [n8n](https://n8n.io/)
+- 🔁 **Implements the same agent pipeline** (`summarizer → reasoner → QA validator`)
+- 🌐 **API calls handled via HTTP Request nodes**
+- 🧠 **AI agents orchestrated with custom nodes and logic branches**
+- 🧩 **Reusable modular nodes** for summarization, reasoning, and QA
+- 📥 **Easily integrates with external services** (e.g., Notion, Slack, Google Sheets)
+- 🔐 **Environment variables managed via n8n credentials**
+- 📦 **Packaged in a Docker container** for easy deployment and testing
+
 
 ---
 
