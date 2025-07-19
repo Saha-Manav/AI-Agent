@@ -129,3 +129,8 @@ Open `http://localhost:5678`
 
 
 Import My workflow.json from n8n-docker-version/backend/ and configure environment variables and credentials (OpenAI key, MongoDB)
+
+## 🌐 Deployable Site
+🔗 Live Web App: `https://ai-agent-assistant-2426.netlify.app/`
+
+Access the deployed version of the AI Agent Assistant for demonstration.
